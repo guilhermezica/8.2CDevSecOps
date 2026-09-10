@@ -17,7 +17,7 @@ pipeline {
         stage('Code Analysis') {
             steps {
                 echo 'Task: check the code against industry standards'
-                echo 'Tool: SonarQube'
+                echo 'Tool: SonarCloud'
             }
         }
 
